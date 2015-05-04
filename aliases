@@ -3,5 +3,7 @@ alias x='exit'
 alias g='git'
 alias ga='git add'
 alias gc='git commit'
+alias gp='git push'
+alias gs='git status'
 alias topten='print -l -- ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
