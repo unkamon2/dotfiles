@@ -23,6 +23,13 @@ plugins=(git)
 
 # User configuration
 
+# use vim key binding
+set -o vi
+
+# Setup color scheme for `ls`
+LSCOLORS=exfxcxdxbxegedabagacad
+export LSCOLORS
+
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
