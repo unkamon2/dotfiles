@@ -40,3 +40,8 @@ source ~/.aliases
 
 #run functions
 source ~/.functions
+
+PATH=$PATH:$HOME/.tmuxifier/bin
+export PATH
+
+eval "$(tmuxifier init -)"
