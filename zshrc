@@ -5,7 +5,7 @@ export ZSH=/home/dylan/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="custom"
+ZSH_THEME="sunrise"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
  COMPLETION_WAITING_DOTS="true"
@@ -22,6 +22,14 @@ ZSH_THEME="custom"
 plugins=(git)
 
 # User configuration
+
+# Ctrl-Z for vim hide/show
+foreground-vi() {
+  fg %vi
+}
+
+zle -N foreground-vi
+bindkey '^Z' foreground-vi
 
 # use vim key binding
 set -o vi
@@ -40,6 +48,9 @@ source ~/.aliases
 
 #run functions
 source ~/.functions
+
+# Start screen automatically
+[[ ! $TERM =~ "screen" ]] && tmux
 
 PATH=$PATH:$HOME/.tmuxifier/bin
 export PATH

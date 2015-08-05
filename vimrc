@@ -1,8 +1,37 @@
 " enable syntax highlighting
 syntax enable
+filetype plugin indent on
 
-" show line numbers
+" Set 256 color
+set t_Co=256
+
+" Set vim mode
+set nocompatible
+
+" Set leader
+let mapleader=","
+
+" Set the timeout length
+set timeoutlen=250
+
+" Backspace settings
+set backspace=indent,eol,start
+
+" See where the cursor is in the file numerically
+set ruler
+
+" With 7.4, the current line number can be bumped out
 set number
+" Relative numbers for easy jumping
+set relativenumber
+
+" highlight search results
+set hlsearch
+
+set tw=80
+
+" Map <Tab> to highlight indentation
+nnoremap <Tab> /^ \+<CR>
 
 " set tabs to have 4 spaces
 set ts=4
