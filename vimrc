@@ -2,6 +2,10 @@
 syntax enable
 filetype plugin indent on
 
+execute pathogen#infect()
+
+map <C-n> :NERDTreeToggle<CR>
+
 " Set 256 color
 set t_Co=256
 
@@ -43,11 +47,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
-
-" load plugins
-if filereadable(expand("~/.vimrc.bundles"))
-    source ~/.vimrc.bundles
-endif
 
 " Python stuff
 let python_highlight_all = 1

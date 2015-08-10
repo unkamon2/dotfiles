@@ -1,4 +1,0 @@
-execute pathogen#infect()
-" open nerd tree and close vim if its the only thing open
-map <C-n> :NERDTreeToggle<CR>
-utocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
