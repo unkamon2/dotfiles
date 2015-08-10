@@ -2,7 +2,7 @@
 export ZSH=/home/dylan/.oh-my-zsh
 
 #oh-my-zsh options
-ZSH_THEME="amuse"
+ZSH_THEME="sunrise"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(git)
