@@ -26,9 +26,6 @@ set relativenumber
 " highlight search results
 set hlsearch
 
-" Map <Tab> to highlight indentation
-nnoremap <Tab> /^ \+<CR>
-
 " set tabs to have 4 spaces
 set ts=4
 set autoindent
@@ -62,3 +59,8 @@ vnoremap <C-c> "*y
 map <silent><Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>"
 map <silent><Leader><S-p> :set paste<CR>O<esc>"*]p:set nopaste<cr>"
 map <silent><C-v> :set paste<CR>o<esc>"*]p:set nopaste<cr>"
+
+"tabs
+nnoremap th :tabnext<CR>
+nnoremap tl :tabprev<CR>
+nnoremap tt :tabnew<CR>
