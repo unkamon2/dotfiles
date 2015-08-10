@@ -5,6 +5,7 @@ filetype plugin indent on
 execute pathogen#infect()
 
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
 
 " Set 256 color
 set t_Co=256
