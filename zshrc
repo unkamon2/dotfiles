@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/dylan/.oh-my-zsh
+export ZSH=/home/odssa/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="sunrise"
@@ -40,3 +40,6 @@ bindkey "^E" end-of-line
 
 # Start screen automatically
 [[ ! $TERM =~ "screen" ]] && tmux
+
+export WORKON_HOME=/home/virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
