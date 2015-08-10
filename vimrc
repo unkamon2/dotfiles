@@ -22,9 +22,6 @@ set relativenumber
 " highlight search results
 set hlsearch
 
-set textwidth=80
-set colorcolumn=+1
-
 " Map <Tab> to highlight indentation
 nnoremap <Tab> /^ \+<CR>
 
