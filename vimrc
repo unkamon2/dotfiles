@@ -8,48 +8,61 @@ set t_Co=256
 " Set vim mode
 set nocompatible
 
-" Set leader
-let mapleader=","
-
-" Set the timeout length
-set timeoutlen=250
-
-" Backspace settings
-set backspace=indent,eol,start
-
-" See where the cursor is in the file numerically
+set backspace=2 "backspace like most editors
+set showcmd
+set ignorecase
+set smartcase
+let mapleader=" "
 set ruler
 
-" With 7.4, the current line number can be bumped out
+" relative numbering
 set number
-" Relative numbers for easy jumping
 set relativenumber
 
 " highlight search results
 set hlsearch
 
-set tw=80
+set textwidth=80
+set colorcolumn=+1
 
 " Map <Tab> to highlight indentation
 nnoremap <Tab> /^ \+<CR>
 
 " set tabs to have 4 spaces
 set ts=4
-
-" indent when moving to the next line while writing code
 set autoindent
-
-" expand tabs into spaces
 set expandtab
-
-" when using the >> or << commands, shift lines by 4 spaces
 set shiftwidth=4
+set shiftround
 
-" show a visual line under the cursor's current line 
 set cursorline
-
-" show the matching part of the pair for [] {} and ()
 set showmatch
 
-" enable all Python syntax highlighting features
+set splitbelow
+set splitright
+
+"quicker movment
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" load plugins
+if filereadable(expand("~/.vimrc.bundles"))
+    source ~/.vimrc.bundles
+endif
+
+" Python stuff
 let python_highlight_all = 1
+
+"Html stuff
+set matchpairs+=<:>
+let g:html_indent_tags = 'li\|p'
+
+""" SYSTEM CLIPBOARD COPY & PASTE SUPPORT
+set pastetoggle=<F2> "F2 before pasting to preserve indentation
+"Copy paste to/from clipboard
+vnoremap <C-c> "*y
+map <silent><Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>"
+map <silent><Leader><S-p> :set paste<CR>O<esc>"*]p:set nopaste<cr>"
+map <silent><C-v> :set paste<CR>o<esc>"*]p:set nopaste<cr>"
