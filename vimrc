@@ -34,6 +34,8 @@ set expandtab
 set shiftwidth=4
 set shiftround
 
+autocmd FileType html :setlocal sw=2 ts=2 sts=2
+
 set cursorline
 set showmatch
 
@@ -48,6 +50,7 @@ nnoremap <C-l> <C-w>l
 
 " Python stuff
 let python_highlight_all = 1
+autocmd BufWritePre *.py normal m`:%s/\s\+$//e``
 
 "Html stuff
 set matchpairs+=<:>
