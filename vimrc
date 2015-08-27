@@ -35,6 +35,7 @@ set shiftwidth=4
 set shiftround
 
 autocmd FileType html :setlocal sw=2 ts=2 sts=2
+autocmd FileType css :setlocal sw=2 ts=2 sts=2
 
 set cursorline
 set showmatch
