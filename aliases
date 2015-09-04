@@ -12,3 +12,4 @@ alias topten='print -l -- ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 alias p='python'
 alias sra='supervisorctl restart all'
 alias ssa='supervisorctl stop all'
+alias smashtokill="echo 'drop database ftp_service; create database ftp_service;' | python manage.py dbshell && python manage.py migrate && python seed.py"
