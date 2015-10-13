@@ -13,4 +13,3 @@ alias p='python'
 alias sra='supervisorctl restart all'
 alias ssa='supervisorctl stop all'
 alias smashtokill="echo 'drop database ftp_service; create database ftp_service;' | python manage.py dbshell && python manage.py migrate && python seed.py"
-alias slay="kill -9 $(ps aux | grep '[u]wsgi' | awk '{print $2}')"
