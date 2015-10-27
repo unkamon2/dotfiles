@@ -35,6 +35,7 @@ set shiftwidth=4
 set shiftround
 
 autocmd BufNewFile,BufRead *.html :setlocal sw=2 ts=2 sts=2
+autocmd BufNewFile,BufRead *.scss :setlocal sw=2 ts=2 sts=2
 autocmd BufNewFile,BufRead *.jade :setlocal sw=2 ts=2 sts=2
 autocmd FileType css :setlocal sw=2 ts=2 sts=2
 
