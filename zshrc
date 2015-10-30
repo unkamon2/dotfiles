@@ -1,8 +1,8 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/dylan/.oh-my-zsh
+export ZSH=/home/jayz/.oh-my-zsh
 
 #oh-my-zsh options
-ZSH_THEME="sunrise"
+ZSH_THEME="lambda"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(git)
