@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/odssa/.oh-my-zsh
+export ZSH=/home/jayz/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="lambda"
