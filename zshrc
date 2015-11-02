@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jayz/.oh-my-zsh
+export ZSH=/Users/hinza0188/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="lambda"
@@ -39,7 +39,7 @@ bindkey "^A" begining-of-line
 bindkey "^E" end-of-line
 
 # Start screen automatically
-[[ ! $TERM =~ "screen" ]] && tmux
+# [[ ! $TERM =~ "screen" ]] && tmux
 
 export WORKON_HOME=/home/virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
