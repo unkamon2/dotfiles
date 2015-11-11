@@ -1,5 +1,8 @@
 # Path to your oh-my-zsh installation.
+# Uncomment this line for Mac OSX
 export ZSH=/Users/hinza0188/.oh-my-zsh
+# Uncomment this line for Ubuntu
+# export ZSH=/home/{user_name}/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="lambda"
