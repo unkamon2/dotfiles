@@ -5,3 +5,6 @@ function cs () {
 function slay () {
     kill -9 $(ps aux | grep $1 | awk '{print $2}')
 }
+function genRand () {
+    < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo;
+}
