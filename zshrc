@@ -5,7 +5,7 @@ export ZSH=/Users/hinza0188/.oh-my-zsh
 # export ZSH=/home/{user_name}/.oh-my-zsh
 
 #oh-my-zsh options
-ZSH_THEME="agnoster"
+ZSH_THEME="clean"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(git)
