@@ -42,7 +42,7 @@ bindkey "^A" begining-of-line
 bindkey "^E" end-of-line
 
 # Start screen automatically
-[[ ! $TERM =~ "screen" ]] && tmux
+#[[ ! $TERM =~ "screen" ]] && tmux
 
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
