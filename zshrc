@@ -2,7 +2,7 @@
 # Uncomment this line for Mac OSX
 # export ZSH=/Users/yxa8247/.oh-my-zsh
 # Uncomment this line for Ubuntu
-export ZSH=/home/yxa8247/.oh-my-zsh
+export ZSH=/Users/hinza0188/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="clean"
