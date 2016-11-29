@@ -12,7 +12,7 @@ set t_Co=256
 
 " Set vim mode
 set nocompatible
-
+set mouse=a
 set backspace=2 "backspace like most editors
 set showcmd
 set ignorecase
