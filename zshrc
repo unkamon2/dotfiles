@@ -30,6 +30,11 @@ export LSCOLORS
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+
+# php export from homebrew
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+
 source $ZSH/oh-my-zsh.sh
 
 # run aliases
