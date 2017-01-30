@@ -35,6 +35,9 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
 
+# laravel excecutable locator
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
 source $ZSH/oh-my-zsh.sh
 
 # run aliases
