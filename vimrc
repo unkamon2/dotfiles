@@ -22,7 +22,6 @@ set ruler
 
 " relative numbering
 set number
-set relativenumber
 
 " highlight search results
 set hlsearch
