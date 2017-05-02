@@ -1,8 +1,9 @@
 # Path to your oh-my-zsh installation.
 # Uncomment this line for Mac OSX
-# export ZSH=/Users/yxa8247/.oh-my-zsh
+export ZSH=/Users/yxa8247/.oh-my-zsh
 # Uncomment this line for Ubuntu
-export ZSH=/home/yxa8247/.oh-my-zsh
+#export ZSH=/Users/hinza0188/.oh-my-zsh
+
 
 #oh-my-zsh options
 ZSH_THEME="clean"
@@ -29,6 +30,14 @@ export LSCOLORS
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+
+# php export from homebrew
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+
+# laravel excecutable locator
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
 source $ZSH/oh-my-zsh.sh
 
 # run aliases
@@ -42,7 +51,7 @@ bindkey "^A" begining-of-line
 bindkey "^E" end-of-line
 
 # Start screen automatically
-[[ ! $TERM =~ "screen" ]] && tmux
+# [[ ! $TERM =~ "screen" ]] && tmux
 
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
