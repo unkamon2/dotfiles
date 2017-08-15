@@ -33,7 +33,7 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 # php export from homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
 
 # laravel excecutable locator
 export PATH="$PATH:$HOME/.composer/vendor/bin"
