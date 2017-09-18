@@ -8,6 +8,7 @@ export ZSH=/Users/hinza0188/.oh-my-zsh
 #oh-my-zsh options
 ZSH_THEME="clean"
 COMPLETION_WAITING_DOTS="true"
+DEFAULT_USER="whoami"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(git)
 
