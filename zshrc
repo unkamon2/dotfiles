@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 # Uncomment this line for Mac OSX
-export ZSH=/Users/hinza0188/.oh-my-zsh
+export ZSH=/Users/yongkian/.oh-my-zsh
 # Uncomment this line for Ubuntu
 #export ZSH=/Users/hinza0188/.oh-my-zsh
 
