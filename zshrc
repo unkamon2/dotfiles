@@ -1,8 +1,8 @@
 # Path to your oh-my-zsh installation.
 # Uncomment this line for Mac OSX
-export ZSH=/Users/jayan/.oh-my-zsh
+# export ZSH=/Users/jayan/.oh-my-zsh
 # Uncomment this line for Ubuntu
-#export ZSH=/Users/hinza0188/.oh-my-zsh
+export ZSH=/home/jayan/.oh-my-zsh
 
 
 #oh-my-zsh options
@@ -36,7 +36,7 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # php export from homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
+#export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
 
 # laravel excecutable locator
 export PATH="$PATH:$HOME/.composer/vendor/bin"
