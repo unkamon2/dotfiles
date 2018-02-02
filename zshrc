@@ -2,7 +2,7 @@
 # Uncomment this line for Mac OSX
 # export ZSH=/Users/jayan/.oh-my-zsh
 # Uncomment this line for Ubuntu
-export ZSH=/home/jayan/.oh-my-zsh
+export ZSH=/home/webserver/.oh-my-zsh
 
 
 #oh-my-zsh options
