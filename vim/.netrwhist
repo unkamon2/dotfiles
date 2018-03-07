@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/hinza0188/IDE/ftp_service/ftp_service'
+let g:netrw_dirhist_2='/Users/jayan/Library/Mobile Documents/com~apple~CloudDocs/IDE/CGNY'
+let g:netrw_dirhist_3='/Users/jayan/Library/Mobile Documents/com~apple~CloudDocs/IDE'
+let g:netrw_dirhist_4='/Users/jayan/Library/Mobile Documents/com~apple~CloudDocs/IDE/CGNY'
+let g:netrw_dirhist_5='/Users/jayan/Library/Mobile Documents/com~apple~CloudDocs/IDE/CGNY/src'
