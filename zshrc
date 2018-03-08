@@ -33,6 +33,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 # python export from homebrew
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+# python@2 for mac
+export PATH="/usr/local/opt/python@2/bin:$PATH"
 
 # php export from homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
