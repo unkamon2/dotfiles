@@ -18,4 +18,5 @@ alias grv='git remote -v'
 alias topten='print -l -- ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 alias sevm-root='ssh root@vsync.se.rit.edu'
 alias sevm-web='ssh webserver@vsync.se.rit.edu'
-
+alias q1='zip -r vSync.zip ../vSync/
+alias q2='mv vSync.zip ~/Desktop'
