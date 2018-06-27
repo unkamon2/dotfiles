@@ -21,6 +21,8 @@ foreground-vi() {
 zle -N foreground-vi
 bindkey '^Z' foreground-vi
 
+# ignoring insecure directory verification
+set ZSH_DISABLE_COMPFIX=true
 # use vim key binding
 set -o vi
 
