@@ -2,7 +2,7 @@
 # Uncomment this line for Mac OSX
 # export ZSH=/Users/jayan/.oh-my-zsh
 # Uncomment this line for Ubuntu
-export ZSH=/home/webserver/.oh-my-zsh
+export ZSH=/home/yka8247/.oh-my-zsh
 
 
 #oh-my-zsh options
@@ -21,6 +21,8 @@ foreground-vi() {
 zle -N foreground-vi
 bindkey '^Z' foreground-vi
 
+# ignoring insecure directory verification
+set ZSH_DISABLE_COMPFIX=true
 # use vim key binding
 set -o vi
 
