@@ -4,6 +4,9 @@ export ZSH=/Users/yka8247/.oh-my-zsh
 # Uncomment this line for Ubuntu
 #export ZSH=/home/yka8247/.oh-my-zsh
 
+#tns nativeScript
+export ANDROID_HOME=/usr/local/share/android-sdk
+export JAVA_HOME=/Library/Java/Home
 
 #oh-my-zsh options
 ZSH_THEME="clean"
@@ -73,3 +76,9 @@ else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
 source /usr/local/bin/virtualenvwrapper.sh
+
+###-tns-completion-start-###
+if [ -f /Users/yka8247/.tnsrc ]; then 
+    source /Users/yka8247/.tnsrc 
+fi
+###-tns-completion-end-###
