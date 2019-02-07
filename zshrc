@@ -40,6 +40,14 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # python@2 for mac
 export PATH="/usr/local/opt/python@2/bin:$PATH"
+# pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+# pyenv-virtualenvwrapper
+export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+export WORKON_HOME=$HOME/.virtualenvs
+pyenv virtualenvwrapper_lazy
 
 # php export from homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
