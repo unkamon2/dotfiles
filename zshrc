@@ -4,10 +4,6 @@ export ZSH=/Users/yka8247/.oh-my-zsh
 # Uncomment this line for Ubuntu
 #export ZSH=/home/yka8247/.oh-my-zsh
 
-#tns nativeScript
-export ANDROID_HOME=/usr/local/share/android-sdk
-export JAVA_HOME=/Library/Java/Home
-
 #oh-my-zsh options
 ZSH_THEME="clean"
 COMPLETION_WAITING_DOTS="true"
@@ -54,7 +50,6 @@ eval "$(pyenv virtualenv-init -)"
 # pyenv-virtualenvwrapper
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 export WORKON_HOME=$HOME/.virtualenvs
-pyenv virtualenvwrapper_lazy
 
 # php export from homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
@@ -70,12 +65,8 @@ source ~/.aliases
 #run functions
 source ~/.functions
 
-#end and start of line
-bindkey "^A" begining-of-line
-bindkey "^E" end-of-line
-
 # Start screen automatically
-# [[ ! $TERM =~ "screen" ]] && tmux
+[[ ! $TERM =~ "screen" ]] && tmux
 
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
@@ -92,8 +83,3 @@ else
 fi
 source /usr/local/bin/virtualenvwrapper.sh
 
-###-tns-completion-start-###
-if [ -f /Users/yka8247/.tnsrc ]; then 
-    source /Users/yka8247/.tnsrc 
-fi
-###-tns-completion-end-###
