@@ -1,8 +1,6 @@
 # Path to your oh-my-zsh installation.
-# Uncomment this line for Mac OSX
-export ZSH=/Users/yka8247/.oh-my-zsh
 # Uncomment this line for Ubuntu
-#export ZSH=/home/yka8247/.oh-my-zsh
+export ZSH=/home/yang/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="clean"
