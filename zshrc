@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 # Uncomment this line for Ubuntu
-export ZSH=/home/yang/.oh-my-zsh
+export ZSH=/home/unkamon/.oh-my-zsh
 
 #oh-my-zsh options
 ZSH_THEME="clean"
@@ -39,11 +39,11 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 # python export from homebrew
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-# python@2 for mac
-export PATH="/usr/local/opt/python@2/bin:$PATH"
 # pyenv-virtualenvwrapper
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 
 # php export from homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
@@ -78,9 +78,3 @@ else
 fi
 source /usr/local/bin/virtualenvwrapper.sh
 
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/yka8247/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/yka8247/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/yka8247/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/yka8247/google-cloud-sdk/completion.zsh.inc'; fi
